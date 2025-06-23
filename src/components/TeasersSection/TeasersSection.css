@@ -1,0 +1,69 @@
+.teasers-section {
+  background-color: #921a40;
+  padding: 3rem 1rem;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.teasers-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 400px;
+  height: 225px; /* Fixed height for 16:9 aspect ratio */
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.youtube-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.glow-youtube {
+  font-size: 2.5rem;
+  color: #ff0000;
+  animation: glowYT 1.5s infinite alternate;
+  transition: transform 0.3s;
+}
+
+.glow-youtube:hover {
+  transform: scale(1.1);
+}
+
+@keyframes glowYT {
+  from {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff4c4c;
+  }
+}

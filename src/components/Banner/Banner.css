@@ -1,0 +1,119 @@
+.banner {
+  background-color: #6a5495;
+  min-height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Bodoni Moda", serif;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 40px;
+}
+
+.photo-college-one {
+  background-color: #56021f;
+  padding: 50px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.banner-button-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-image img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.bottom-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bottom-images img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.banner p {
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.8rem;
+  font-weight: normal;
+}
+
+.banner-button-container {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.banner-button-container button {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-button-container button:first-child {
+  background-color: #e0a597;
+  color: black;
+  border: 2px solid #e0a597;
+}
+
+.banner-button-container button:first-child:hover {
+  background-color: transparent;
+  color: #e0a597;
+}
+
+/* Second button: outlined yellow with yellow text */
+.banner-button-container button:last-child {
+  background-color: transparent;
+  color: #e0a597;
+  border: 2px solid #e0a597;
+}
+
+.banner-button-container button:last-child:hover {
+  background-color: #e0a597;
+  color: black;
+}
+
+.highlight {
+  color: #e0a597; /* hot pink - you can change to another appropriate color if needed */
+}
+
+.instagram-link {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.instagram-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.instagram-icon:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 468px) {
+  .banner p {
+    font-size: 14px;
+  }
+}
