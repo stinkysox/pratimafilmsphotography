@@ -31,16 +31,6 @@ const Gallery = () => {
   return (
     <>
       <LatestWork />
-      <section className="gallery-section">
-        <h2 className="gallery-heading">Gallery</h2>
-        <div className="gallery-grid">
-          {photos.map((url, index) => (
-            <div className="gallery-item" key={index}>
-              <img src={url} alt={`gallery-${index}`} />
-            </div>
-          ))}
-        </div>
-      </section>
     </>
   );
 };
