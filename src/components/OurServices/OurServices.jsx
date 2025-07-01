@@ -7,11 +7,11 @@ import Navbar from "../Navbar/Navbar";
 const services = [
   {
     title: "Wedding Photography",
-    image: "https://i.postimg.cc/XYjfckd9/DSC01372.jpg",
+    image: "https://i.postimg.cc/4dD5d78g/DSC02093.jpg",
   },
   {
     title: "Pre-wedding Photography",
-    image: "https://i.postimg.cc/pT6L680G/DSC09283.jpg",
+    image: "https://i.postimg.cc/cC4mpMjF/0O8A2964.jpg",
   },
   {
     title: "Birthday Party",
